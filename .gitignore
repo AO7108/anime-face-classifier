@@ -1,0 +1,18 @@
+# Ignore virtual environment
+.venv/
+
+# Bytecode cache
+pycache/
+
+# OS/macOS files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data and large models (optional to track)
+*.npy
+*.h5
+
+# VS Code settings (optional)
+.vscode/
