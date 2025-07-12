@@ -1,18 +1,32 @@
-# Ignore virtual environment
+# ❌ Ignore virtual environments
 .venv/
 
-# Bytecode cache
+# ❌ Ignore Python bytecode
 pycache/
+*.py[cod]
 
-# OS/macOS files
+# ❌ OS/macOS/Windows system files
 .DS_Store
+Thumbs.db
 
-# Jupyter Notebook checkpoints
+# ❌ Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Data and large models (optional to track)
+# ❌ Large model/data files
 *.npy
 *.h5
 
-# VS Code settings (optional)
+# ❌ VS Code settings (optional)
 .vscode/
+
+# ❌ Environment/IDE files (optional)
+*.env
+.idea/
+*.log
+
+# ❌ Streamlit app cache (optional)
+.streamlit/
+
+# ❌ Any temporary files
+*.tmp
+*.bak
