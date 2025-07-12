@@ -61,3 +61,34 @@ streamlit run anime_classifier_app.py
 
 <img src="sample_results/Screenshot (45).png" width="70%">
 
+
+📦 Download Model File (Required)
+
+This project uses a pre-trained model which is not included in the GitHub repo.
+
+➡️ Click to Download Model (.h5 file) - https://drive.google.com/file/d/1DWlAbW9-XLafX1AB6QJhmrnjRGDjM12u/view?usp=sharing
+
+How to Use:
+
+1. Create a folder named models in the root of the project.
+
+
+2. Move the downloaded file into that folder.
+
+
+
+Your folder should look like this:
+
+anime-face-classifier/
+├── models/
+│   └── anime_cnn_model_v2.h5
+├── anime_classifier_app.py
+├── README.md
+...
+
+3. Run the app:
+
+
+
+streamlit run anime_classifier_app.py
+
